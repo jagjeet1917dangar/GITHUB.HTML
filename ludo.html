@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   .main{
+      justify-content: center;
+      display: flex;
+      display: grid;
+      grid-template-columns: repeat(2,450px);
+      grid-template-rows: repeat(2,450px);
+   }
+   .moto{
+    height: 200px;
+    width: 200px;
+    margin-left: -2px;
+    display: grid;
+    grid-template-columns: repeat(2,90px);
+    grid-template-rows: repeat(2,90px);
+   }
+   .in{
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(6,50px);
+    margin-left: 515px;
+    margin-top: -900px;
+   }
+   .in1{
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(6,50px);
+    margin-left: 515px;
+    margin-top: 150px;
+   }
+   .in2{
+    display: grid;
+    grid-template-columns: repeat(6,50px);
+    grid-template-rows: repeat(3,50px);
+    margin-top: -450px;
+    margin-left: 214px;
+   }
+   .in3{
+    display: grid;
+    grid-template-columns: repeat(6,50px);
+    grid-template-rows: repeat(3,50px);
+    margin-top: -150px;
+    margin-left: 666px;
+   }
+   .block{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+   }
+   .middle{
+    margin-left: 516px;
+    margin-top: -149px;
+        height: 0;
+        width: 0;
+        float: left;
+        border-left:75px solid red;
+        border-right:75px solid yellow;
+        border-top:75px solid green;
+        border-bottom:75px solid blue;
+   }
+   .circle{
+     height: 40px;
+     width: 40px;
+     border: 8px solid red;
+     margin-top: 30px;
+     margin-left: 25px;
+     border-radius: 400px;
+   }
+   .circle1{
+    height: 40px;
+     width: 40px;
+     border: 8px solid green;
+     margin-top: 30px;
+     margin-left: 25px;
+     border-radius: 400px;
+   }
+   .circle2{
+    height: 40px;
+     width: 40px;
+     border: 8px solid blue;
+     margin-top: 30px;
+     margin-left: 25px;
+     border-radius: 400px;
+   }
+   .circle3{
+    height: 40px;
+     width: 40px;
+     border: 8px solid yellow;
+     margin-top: 30px;
+     margin-left: 25px;
+     border-radius: 400px;
+   }
+   .star
+		{
+			font-size: 32px;
+			text-align: center;
+            margin-left: 10px;
+		}
+</style>
+<body>
+    <div class="whole">
+    <div class="main">
+        <div style="border: 50px solid red;margin-left: -2px;" class="moto">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div style="border: 50px solid green;margin-left: 0.5px;" class="moto">
+            <div class="circle1"></div>
+            <div class="circle1"></div>
+            <div class="circle1"></div>
+            <div class="circle1"></div>
+        </div>
+        <div style="border: 50px solid blue;margin-top: 2px;" class="moto">
+            <div class="circle2"></div>
+            <div class="circle2"></div>
+            <div class="circle2"></div>
+            <div class="circle2"></div>
+        </div>
+        <div style="border: 50px solid yellow;margin-left: 0.5px;margin-top: 2px;" class="moto">
+            <div class="circle3"></div>
+            <div class="circle3"></div>
+            <div class="circle3"></div>
+            <div class="circle3"></div>
+        </div>
+    </div>
+    <div class="in">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: green;" class="block"></div>
+        <div style="background-color: green;" class="block"><span class="star">&#9733;</span></div>
+        <div style="background-color: green;" class="block"><span class="star">&#9733;</span></div>
+        <div style="background-color: green;" class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: green;" class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: green;" class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: green;" class="block"></div>
+        <div class="block"></div>
+    </div>
+    <div class="in1">
+        <div class="block"></div>
+        <div style="background-color: blue;" class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: blue;" class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: blue;" class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: blue;" class="block"></div>
+        <div style="background-color: blue;" class="block"><span class="star">&#9733;</span></div>
+        <div style="background-color: blue;" class="block"><span class="star">&#9733;</span></div>
+        <div style="background-color: blue;" class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+    <div class="in2">
+        <div class="block"></div>
+        <div style="background-color: red;" class="block"><span class="star">&#9733;</span></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: red;" class="block"></div>
+        <div style="background-color: red;" class="block"></div>
+        <div style="background-color: red;" class="block"></div>
+        <div style="background-color: red;" class="block"></div>
+        <div style="background-color: red;" class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: red;" class="block"><span class="star">&#9733;</span></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+    <div class="in3">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: yellow;" class="block"><span class="star">&#9733;</span></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: yellow;" class="block"></div>
+        <div style="background-color: yellow;" class="block"></div>
+        <div style="background-color: yellow;" class="block"></div>
+        <div style="background-color: yellow;" class="block"></div>
+        <div style="background-color: yellow;" class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div style="background-color: yellow;" class="block"><span class="star">&#9733;</span></div>
+        <div class="block"></div>
+    </div>
+    <div class="middle"></div>
+</div>
+</body>
+</html>
